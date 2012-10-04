@@ -42,8 +42,7 @@ sub violates {
 __END__
 =head1 NAME
 
-Perl::Critic::Policy::CodeLayout::ProhibitSpaceIndentation - Use tabs instead
-of spaces for indentation.
+Perl::Critic::Policy::CodeLayout::ProhibitSpaceIndentation - Use tabs instead of spaces for indentation.
 
 
 =head1 DESCRIPTION
