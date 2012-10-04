@@ -1,5 +1,5 @@
 ---
-abstract: 'The great new Perl::Critic::Policy::CodeLayout::ProhibitSpaceIndentation!'
+abstract: 'Use tabs instead of spaces for indentation'
 author:
   - 'Infoxchange Australia <devs@infoxchange.net.au>'
 build_requires:
@@ -20,4 +20,4 @@ no_index:
     - inc
 requires:
   Test::More: 0
-version: 0.01
+version: 1.00
