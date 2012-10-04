@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Readonly;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use Perl::Critic::Utils qw{ :booleans :severities };
 use base qw(Perl::Critic::Policy);
@@ -54,20 +54,8 @@ such occurrences so that you can be sure when the tab sizes are reconfigured,
 spaces won't make indented code look wrong.
 
 This policy can be used together with
-L<Perl::Critic::Policy::CodeLayout::ProhibitHardTabs|CodeLayout::ProhibitHardTabs>
+L<CodeLayout::ProhibitHardTabs|Perl::Critic::Policy::CodeLayout::ProhibitHardTabs>
 by setting C<allow_leading_tabs> option of the latter to C<1>.
-
-Putting hard tabs in your source code (or POD) is one of the worst
-things you can do to your co-workers and colleagues, especially if
-those tabs are anywhere other than a leading position.  Because
-various applications and devices represent tabs differently, they can
-cause you code to look vastly different to other people.  Any decent
-editor can be configured to expand tabs into spaces.
-L<Perl::Tidy|Perl::Tidy> also does this for you.
-
-This Policy catches all tabs in your source code, including POD,
-quotes, and HEREDOCs.  The contents of the C<__DATA__> section are not
-examined.
 
 
 =head1 CONFIGURATION
