@@ -1,3 +1,7 @@
 language: perl
+
+install:
+        cpanm Readonly
+
 env:
         - RELEASE_TESTING=1
