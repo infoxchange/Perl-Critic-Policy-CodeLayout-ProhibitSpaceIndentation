@@ -1,7 +1,7 @@
 language: perl
 
 install:
-        cpanm --notest Readonly Perl::Critic
+        cpanm --notest Perl::Critic
 
 env:
         - RELEASE_TESTING=1
