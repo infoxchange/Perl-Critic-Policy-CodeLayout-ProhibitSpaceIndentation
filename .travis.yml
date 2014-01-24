@@ -1,0 +1,7 @@
+language: perl
+
+install:
+        cpanm --notest Perl::Critic
+
+env:
+        - RELEASE_TESTING=1
