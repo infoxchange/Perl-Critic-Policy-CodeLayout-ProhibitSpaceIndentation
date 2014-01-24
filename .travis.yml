@@ -1,0 +1,3 @@
+language: perl
+env:
+        - RELEASE_TESTING=1
